@@ -15,8 +15,9 @@ Make sure that your `.gnupg/gpg-agent.conf` has the only the following line for
 pinentry-program /usr/bin/pinentry-curses
 ```
 
+### From local machine
+
 ```sh
-# from local machine
 
 # download password-store Docker image
 docker pull password-store
@@ -29,6 +30,11 @@ docker run \
   --volume $HOME/.gnupg:/root/.gnupg \
   password-store \
   /bin/bash
+```
+
+### Inside of running Docker container
+
+```sh
 
 # add private key
 gpg \
