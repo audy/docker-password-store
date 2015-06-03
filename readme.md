@@ -8,7 +8,7 @@ by an alligator...
 
 ## Instructions
 
-Make sure that your `.gnupg/gpg-agent.conf` has the only the following line for
+Make sure that your `.gnupg/gpg-agent.conf` has only the following line for
 `pinentry-program`:
 
 ```
