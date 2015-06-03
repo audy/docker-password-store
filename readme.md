@@ -38,12 +38,6 @@ docker run \
 (inside of running Docker container)
 
 ```sh
-# add private key
-gpg \
-  --allow-secret-key-import \
-  --import \
-  private.key
-
 # from Docker container
 pass ls
 
