@@ -8,6 +8,13 @@ by an alligator...
 
 ## Instructions
 
+Make sure that your `.gnupg/gpg-agent.conf` has the only the following line for
+`pinentry-program`:
+
+```
+pinentry-program /usr/bin/pinentry-curses
+```
+
 ```sh
 # from local machine
 
