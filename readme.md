@@ -15,11 +15,11 @@ Make sure that your `.gnupg/gpg-agent.conf` has the only the following line for
 pinentry-program /usr/bin/pinentry-curses
 ```
 
-### From local machine
+### Download and run password-store image
 
-Download password-store image.
+(from local machine)
 
-```bash
+```sh
 # download password-store Docker image
 docker pull audy/password-store
 
@@ -33,11 +33,11 @@ docker run \
   /bin/bash
 ```
 
-### Inside of running Docker container
+### Test decryption of passwords.
 
-Test decryption of passwords.
+(inside of running Docker container)
 
-```bash
+```sh
 # add private key
 gpg \
   --allow-secret-key-import \
