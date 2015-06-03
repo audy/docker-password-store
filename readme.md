@@ -17,8 +17,9 @@ pinentry-program /usr/bin/pinentry-curses
 
 ### From local machine
 
-```sh
+Download password-store image.
 
+```sh
 # download password-store Docker image
 docker pull password-store
 
@@ -33,6 +34,8 @@ docker run \
 ```
 
 ### Inside of running Docker container
+
+Test decryption of passwords.
 
 ```sh
 
