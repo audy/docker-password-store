@@ -21,7 +21,7 @@ Download password-store image.
 
 ```sh
 # download password-store Docker image
-docker pull password-store
+docker pull audy/password-store
 
 # start bash in password-store image with the necessary directories mounted
 docker run \
