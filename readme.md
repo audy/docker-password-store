@@ -19,7 +19,7 @@ pinentry-program /usr/bin/pinentry-curses
 
 Download password-store image.
 
-```sh
+```bash
 # download password-store Docker image
 docker pull audy/password-store
 
@@ -37,8 +37,7 @@ docker run \
 
 Test decryption of passwords.
 
-```sh
-
+```bash
 # add private key
 gpg \
   --allow-secret-key-import \
