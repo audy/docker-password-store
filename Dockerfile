@@ -2,7 +2,7 @@ from ubuntu:14.04
 
 MAINTAINER Austin G. Davis-Richardson <harekrishna@gmail.com>
 
-LABEL Description="Run password-store and GnuPG inside of a Docker container"
+LABEL description="Run password-store and GnuPG inside of a Docker container"
 
 RUN apt-get update
 
