@@ -31,6 +31,15 @@ docker run \
   --volume $HOME/.gnupg:/root/.gnupg \
   audy/password-store \
   /bin/bash
+
+# alternatively, just print a password
+docker run \
+  -ti \
+  --rm \
+  --volume $HOME/.password-store:/root/.password-store \
+  --volume $HOME/.gnupg:/root/.gnupg \
+  audy/password-store \
+  pass github
 ```
 
 ### Test decryption of passwords.
