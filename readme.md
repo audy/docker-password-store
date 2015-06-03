@@ -29,7 +29,7 @@ docker run \
   --rm \
   --volume $HOME/.password-store:/root/.password-store \
   --volume $HOME/.gnupg:/root/.gnupg \
-  password-store \
+  audy/password-store \
   /bin/bash
 ```
 
